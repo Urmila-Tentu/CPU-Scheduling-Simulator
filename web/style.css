@@ -1,0 +1,81 @@
+body {
+    background: #121212;
+    color: #f5f5f5;
+    font-family: Arial;
+    padding: 20px;
+}
+
+h1 {
+    color: #00ffc8;
+}
+
+.controls, .process-form {
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    margin-right: 10px;
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+}
+
+button {
+    background: linear-gradient(45deg,#ff7e5f,#feb47b);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* LEGEND */
+#legend {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+.legend-color {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+
+/* SINGLE GANTT */
+#gantt {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.block {
+    height: 40px;
+    width: 35px;
+    margin: 2px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #000;
+}
+
+#output {
+    background: black;
+    color: #00ff88;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #00ff88;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CPU Scheduling Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>CPU Scheduling Simulator</h1>
+
+<div class="controls">
+
+    <!-- NEW: Operation Type -->
+    <select id="operation">
+        <option value="trace">Trace</option>
+        <option value="stats">Stats</option>
+    </select>
+
+    <select id="algorithm">
+        <option value="1">FCFS</option>
+        <option value="2">Round Robin</option>
+        <option value="3">SPN</option>
+        <option value="4">SRT</option>
+        <option value="5">HRRN</option>
+        <option value="6">FB-1</option>
+        <option value="7">FB-2i</option>
+        <option value="8">Aging</option>
+    </select>
+
+    <input type="number" id="quantum" placeholder="Quantum (for RR/Aging)">
+</div>
+
+<div class="process-form">
+    <input type="text" id="pname" placeholder="Process Name">
+    <input type="number" id="arrival" placeholder="Arrival Time">
+    <input type="number" id="service" placeholder="Service Time">
+
+    <button onclick="addProcess()">Add Process</button>
+    <button onclick="runSimulation()">Run Simulation</button>
+</div>
+
+<h2>Process List</h2>
+<div id="processList"></div>
+
+<h2>Gantt Chart</h2>
+<div id="gantt"></div>
+
+<h2>Output</h2>
+<pre id="output"></pre>
+
+<script src="script.js"></script>
+</body>
+</html>
