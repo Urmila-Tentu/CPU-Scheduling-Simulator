@@ -42,7 +42,7 @@ An interactive **web-based simulator** for various CPU scheduling algorithms. Us
 
 ### CPU Scheduling Simulation
 
-![Screenshot 1](assets/screenshot1.png)
-![Screenshot 2](assets/screenshot2.png)
-![Screenshot 3](assets/screenshot3.png)
-![Screenshot 4](assets/screenshot4.png)
+![Screenshot 1](assets/Screenshot1.png)
+![Screenshot 2](assets/Screenshot2.png)
+![Screenshot 3](assets/Screenshot3.png)
+![Screenshot 4](assets/Screenshot4.png)
